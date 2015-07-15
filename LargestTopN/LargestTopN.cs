@@ -15,6 +15,11 @@ namespace LargestTopN
         /// <summary>
         /// Read from a potential large file a list of numbers and provide a solution to return back
         /// an array of the largest top N elements.
+        /// 
+        /// The space complexity of this algorithm is driven by the size of the return top N elements. If
+        /// this number is potentially large further analysis should be required to determine a more
+        /// robust solution since reading in the first TOP N elements from the file initially could cause 
+        /// memory problems.
         /// </summary>
         /// 
         /// <returns>An simple array of N largest top elements.</returns>
