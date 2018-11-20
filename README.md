@@ -4,11 +4,11 @@ Algorithm to return the N largest number of integers from a large text file.
 This algorithm uses the built in List collection class from Microsoft in handling the time complexity of the sort, 
 insert, lookup and add operations. The following Time complexity of the List collection operations is as follows.
 
-List Class      // Internal underlying implementaiton of Array structure.<br>
-List.Add()      // Time complexity of O(1)<br>
-List.RemoveAt() // Time complexity of O(n)<br>
-List.Item[i]    // Time complexity of O(1)<br>
-List.Sort()     // Quick Sort algorithm on average O(n log n), worst case O(n ^ 2)<br>
+List Class       // Internal underlying implementaiton of Array structure.<br>
+List.Add()       // Time complexity of O(1)<br>
+List.RemoveAt()  // Time complexity of O(n)<br>
+List.Item[i]     // Time complexity of O(1)<br>
+List.Sort()      // Quick Sort algorithm on average O(n log n), worst case O(n ^ 2)<br>
 
 Format of the algorithm is as follows:<br>
 
